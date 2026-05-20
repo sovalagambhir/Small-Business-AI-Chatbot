@@ -43,11 +43,14 @@ Your `requirements.txt` file should be located in the root directory and contain
 ```text
 # Core Spreadsheet Engine (Required for orders.xlsx CRUD tasks)
 openpyxl>=3.1.0
-```markdown
-## 📸 Application Interface & Visual Previews
+### 3. Install Third-Party Dependencies
+Deploy the spreadsheet manipulation engine using the local requirements manifest profile. 
 
-3. To demonstrate the runtime environment and the layout of the user workspace, here are active screenshots of the system in operation:
+Your `requirements.txt` file should be located in the root directory and contain the following library:
 
+```text
+# Core Spreadsheet Engine (Required for orders.xlsx CRUD tasks)
+openpyxl>=3.1.0
 ### 1. Main Chat Interface & Interactive Canvas
 The primary Tkinter frame features high-contrast action buttons and a clean, responsive scrollable dialog display layout:
 ![Adarsh Garments AI Interface](./screenshots/FAQ.png)
