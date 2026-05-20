@@ -26,7 +26,7 @@
       "patterns": ["Where is your shop/store located?",
                     "where is the location of your store or shop?",
                     "where it is located"],
-      "responses": ["Our Store Location is Shop no. 6 Gurudwara Market Opp. Naval Cinema, G.T Road Panipat-132103"]
+      "responses": ["Our Store Location is Shop no. 44 Gurudwara Market Opp. Naval Cinema, G.T Road Panipat-132103"]
     },
     {
       "tag": "goodbye",
@@ -54,7 +54,7 @@
         "Order status"
       ],
       "responses": [
-        "To check your delivery status, please contact Mr. Sovala at +91 9416603607 with your 5-digit Order ID. He will help you out immediately!"
+        "To check your delivery status, please contact Mr. Sovala at +91856932145  with your 5-digit Order ID. He will help you out immediately!"
       ]
     },
     {
