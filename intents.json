@@ -1,0 +1,129 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Is anyone there?",
+        "Good day",
+        "Hi chatbot"
+      ],
+      "responses": [
+        "Hello! Welcome to our Adarsh Garments Menswear Retail Store. How can I help you today?",
+        "Hi there! What can I help you find today?",
+        "Hey! Great to see you. How can I assist you with your shopping?"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["When are you open?", "What are your hours?", "Open timings?"],
+      "responses": ["We are open from 9:30 AM to 9:30 PM every day!"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is your shop/store located?",
+                    "where is the location of your store or shop?",
+                    "where it is located"],
+      "responses": ["Our Store Location is Shop no. 6 Gurudwara Market Opp. Naval Cinema, G.T Road Panipat-132103"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I'm leaving now",
+        "Thanks, bye",
+        "Thankyou"
+      ],
+      "responses": [
+        "Goodbye! Thanks for stopping by. Have a great day!",
+        "See you later! Feel free to reach back out if you need anything else.",
+        "Bye! Happy shopping, hope to see you again soon."
+      ]
+    },
+    {
+      "tag": "track_order",
+      "patterns": [
+        "Where is my order?",
+        "Track my package",
+        "When will my delivery arrive?",
+        "I haven't received my order yet",
+        "Order status"
+      ],
+      "responses": [
+        "To check your delivery status, please contact Mr. Sovala at +91 9416603607 with your 5-digit Order ID. He will help you out immediately!"
+      ]
+    },
+    {
+      "tag": "returns_exchanges",
+      "patterns": [
+        "how to return",
+        "return policy",
+        "exchange product",
+        "can i replace this size"
+      ],
+      "responses": [
+        "Changed your mind about the size or fit? No problem! Please enter your 5-digit Order ID (e.g., AG-12345) so I can initiate the exchange workflow.",
+        "We offer a 30-day exchange and return policy. Please type your 5-digit Order ID here to start your request immediately.",
+        "If your item arrived damaged or you need an immediate swap, please type your Order ID here, or contact us at adarshgarments.376@gmail.com."
+      ]
+    },
+    {
+      "tag": "product_stock",
+      "patterns": [
+        "Is this item in stock?",
+        "When will you restock?",
+        "Do you have this in size medium?",
+        "Are there any left of this product?",
+        "Out of stock item query"
+      ],
+      "responses": [
+        "Please provide the product name or SKU link, and I will check our real-time inventory for you and Mr. Sovala will connect you through mail!",
+        "Inventory levels change quickly! If you give me the product details and your preferred size/color, I can check availability and Mr. Sovala will connect with you through mail.",
+        "If an item is out of stock, we will notify you through mail at the moment it drops back into inventory."
+      ]
+    },
+    {
+      "tag": "payment_issues",
+      "patterns": [
+        "Do you accept credit cards?",
+        "Can I pay with PayPal,Paytm or Google Pay?",
+        "My payment failed",
+        "What payment methods do you take?",
+        "Do you take Apple Pay?"
+      ],
+      "responses": [
+        "We accept all major credit cards (Visa, Mastercard, AMEX), PayPal, and Apple Pay.",
+        "If your payment failed, please verify your billing address matches your card details, or try checking out with an alternative method like PayPal.",
+        "We support secure transactions via major debit/credit cards, PayPal, and digital wallets."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "Can I cancel my order?",
+        "I made a mistake, cancel it",
+        "Stop my order from shipping",
+        "Change my shipping address"
+      ],
+      "responses": [
+        "I can certainly help you request a cancellation! To pull up your file details, could you please provide your 5-digit Order ID (e.g., AG-12345)?"
+      ]
+    },
+    {
+      "tag": "discounts_promos",
+      "patterns": [
+        "Are there any coupon codes?",
+        "Do you have a discount?",
+        "Is there a sale going on?",
+        "Promo code not working"
+      ],
+      "responses": [
+        "You can visit our instagram page Adarsh.garments and follow and get upto 10% discount on your purchasing greater than Rs.1000 !"
+      ]
+    }
+  ]
+}
