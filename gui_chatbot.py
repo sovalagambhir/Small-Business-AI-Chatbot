@@ -11,8 +11,8 @@ from email.mime.multipart import MIMEMultipart
 from openpyxl import load_workbook, Workbook  
 
 
-SENDER_EMAIL = "sovalagambhir.1616@gmail.com"      
-SENDER_PASSWORD = "yuon rtbl avig tgsl"          
+SENDER_EMAIL = "Enter_your_Store_Gmail_Here."      
+SENDER_PASSWORD = "Enter_your_app_specific_Password_here."          
 
 def send_real_gmail(receiver_email, subject, body_text):
     """Logs into real Google SMTP servers securely and dispatches an inbox notification."""
